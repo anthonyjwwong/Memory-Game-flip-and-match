@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+        <p id="output">00:00:00</p>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star-o"></i></li>
+        		<li><i class="fa fa-star-o"></i></li>
+        		<li><i class="fa fa-star-o"></i></li>
+        	</ul>
+
+        	<span class="moves">0</span> Moves
+
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+        </ul>
+
+
+
+        <!--MODALLLLLLLLLLLLLLLLLLLLL-->
+        <!-- The Modal for beginnig-->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Welcome to the memory game!</h2>
+            </div>
+            <div class="modal-body">
+              <p> Under 20 moves will get you 3 stars <br>&#x2606 &#x2606 &#x2606;</p>
+              <p>21 to 30 moves will get you 2 stars!<br> &#x2606 &#x2606;</p>
+              <p>31 and above gets you 1 star <br>&#x2606;</p>
+            </div>
+            <div class="modal-footer">
+              <h3>Enjoy!</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Modal for beginnig-->
+        <div id="endModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+
+              <h2>Hey! Good job on finishing the game!</h2>
+            </div>
+            <div class="modal-body">
+              <p>You've won the game with:</p>
+              <span class="endStar"></span>
+              <p>and</p>
+              <p><span class="modalMoves"></span> moves</p>
+            </div>
+            <div class="modal-footer">
+              <h3>You ended the game in <span class="timeShown"></span> minutes and seconds!</h3>
+              <h3>Hope you had fun!</h3>
+              <h3>Click <i id='resetButton' class="fa fa-repeat"></i> to restart the game!</h3>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
