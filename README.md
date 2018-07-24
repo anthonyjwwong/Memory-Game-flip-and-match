@@ -11,4 +11,4 @@ The game play is similar to every other memory card matching game
 2. Matching cards within a certain time limit will grant you a certain number of stars
 3. Click restart button to restart the game
 
- https://anthonyjwwong.github.io/Udacity-FEND-Memory-Game/
+https://anthonyjwwong.github.io/Memory-Game-flip-and-match/.
